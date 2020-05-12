@@ -7,5 +7,5 @@ def initialize(word)
 end
 
 def match(words)
-  words.select {|string|words.split("").sort == @word.split("").sort}
+  words.select {|string|string.split("").sort == @word.split("").sort}
 end
