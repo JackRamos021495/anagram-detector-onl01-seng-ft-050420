@@ -6,6 +6,6 @@ def initialize(word)
   @word = word
 end
 
-def detect(words) 
+def detect(words)
   words.select {|string|words.split("").sort == @word.split("").split}
 end
