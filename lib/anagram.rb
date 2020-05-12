@@ -1,9 +1,9 @@
 # Your code goes here!
 class Anagram
-attr_accessor :word
+attr_accessor :string
 
-def initialize(word)
-  @word = word
+def initialize(string)
+  @word = string
 end
 
 def detect(words)
