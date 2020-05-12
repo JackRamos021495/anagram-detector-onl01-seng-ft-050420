@@ -6,7 +6,7 @@ def initialize(string)
   @word = string
 end
 
-def detect(words)
+def match(words)
   words.select do |string|
     string.split("").sort == @word.split("").sort
   end
