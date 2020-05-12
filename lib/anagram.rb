@@ -7,7 +7,9 @@ def initialize(word)
 end
 
 def detect(words)
-  words.select {|string|string.split("").sort == @word.split("").sort}
+  words.select do |string|
+    string.split("").sort == @word.split("").sort
+  end
 end
 
 end
