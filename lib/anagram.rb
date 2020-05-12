@@ -9,3 +9,4 @@ end
 def match(words)
   words.select {|string|string.split("").sort == @word.split("").sort}
 end
+end
